@@ -6,9 +6,12 @@ namespace DelegateHelloWorld
     {
         static bool isAuth;
 
-        private static void Authorize() {
+        private static void Authorize()
+        {
+
             Console.WriteLine("Authorizing ...");
             isAuth = true;
+
         }
 
         delegate void SayHelloDelegate(string name, int retries = 0);
@@ -22,10 +25,11 @@ namespace DelegateHelloWorld
                 SayHelloDelegate del = new SayHelloDelegate(SayHello);
                 del(name, retries);
             }
-            else if (!isAuth) {
+            else if (!isAuth)
+            {
                 Console.WriteLine("Failed to Authorize");
             }
-            else {
+            {
                 Console.WriteLine("SayHello is Authorized.");
                 Console.WriteLine("Hello {0}", name);
             }
