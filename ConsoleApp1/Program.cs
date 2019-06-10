@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 
 namespace DelegateHelloWorld
 {
@@ -12,18 +11,21 @@ namespace DelegateHelloWorld
             isAuth = true;
         }
 
-        delegate void SayHelloDelegate(string name);
-        public static void SayHello(string name)
+        delegate void SayHelloDelegate(string name, int retries = 0);
+        public static void SayHello(string name, int retries = 0)
         {
-            if (!isAuth)
+            if (!isAuth && retries < 3)
             {
                 Console.WriteLine("Not Authorized.");
                 Authorize();
+                retries++;
                 SayHelloDelegate del = new SayHelloDelegate(SayHello);
-                del(name);
+                del(name, retries);
             }
-            else
-            {
+            else if (!isAuth) {
+                Console.WriteLine("Failed to Authorize");
+            }
+            else {
                 Console.WriteLine("SayHello is Authorized.");
                 Console.WriteLine("Hello {0}", name);
             }
