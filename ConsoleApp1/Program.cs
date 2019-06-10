@@ -24,7 +24,7 @@ namespace DelegateHelloWorld
             }
             else
             {
-                Console.WriteLine("SayHello is now Authorized.");
+                Console.WriteLine("SayHello is Authorized.");
                 Console.WriteLine("Hello {0}", name);
             }
         }
@@ -32,7 +32,7 @@ namespace DelegateHelloWorld
         static void Main(string[] args)
         {
             SayHello("World");
-            //Console.ReadLine();
+            SayHello("Authorized World");
         }
     }
 }
