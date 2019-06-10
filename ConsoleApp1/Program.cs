@@ -7,13 +7,18 @@ namespace DelegateHelloWorld
     {
         static bool isAuth;
 
+        private static void Authorize() {
+            Console.WriteLine("Authorizing ...");
+            isAuth = true;
+        }
+
         delegate void SayHelloDelegate(string name);
         public static void SayHello(string name)
         {
             if (!isAuth)
             {
                 Console.WriteLine("Not Authorized.");
-                isAuth = true;
+                Authorize();
                 SayHelloDelegate del = new SayHelloDelegate(SayHello);
                 del(name);
             }
@@ -27,7 +32,7 @@ namespace DelegateHelloWorld
         static void Main(string[] args)
         {
             SayHello("World");
-            Console.ReadLine();
+            //Console.ReadLine();
         }
     }
 }
