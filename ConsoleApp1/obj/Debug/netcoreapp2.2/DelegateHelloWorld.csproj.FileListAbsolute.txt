@@ -1,0 +1,10 @@
+C:\Users\ABGB454\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.2\DelegateHelloWorld.deps.json
+C:\Users\ABGB454\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.2\DelegateHelloWorld.runtimeconfig.json
+C:\Users\ABGB454\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.2\DelegateHelloWorld.runtimeconfig.dev.json
+C:\Users\ABGB454\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.2\DelegateHelloWorld.dll
+C:\Users\ABGB454\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.2\DelegateHelloWorld.pdb
+C:\Users\ABGB454\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.2\DelegateHelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\ABGB454\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.2\DelegateHelloWorld.AssemblyInfoInputs.cache
+C:\Users\ABGB454\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.2\DelegateHelloWorld.AssemblyInfo.cs
+C:\Users\ABGB454\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.2\DelegateHelloWorld.dll
+C:\Users\ABGB454\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.2\DelegateHelloWorld.pdb
